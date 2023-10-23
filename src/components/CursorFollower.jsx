@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const CursorFollower = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -8,24 +8,28 @@ const CursorFollower = () => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
 
   const cursorStyle = {
-    position: 'fixed',
-    top: `${position.y -150 }px`,
-    left: `${position.x -150 }px`,
-    width: '300px',
-    height: '300px',
-    borderRadius: '50%',
-    backgroundColor: '#F9F5F600',
-    boxShadow: 'rgba(0, 0, 0, 0.56) 0px 22px 70px 4px',
-    pointerEvents: 'none', // Ensure the cursor doesn't interfere with underlying elements
+    position: "fixed",
+    top: `${position.y - 100}px`,
+    left: `${position.x - 100}px`,
+    width: "200px",
+    height: "200px",
+    borderRadius: "50%",
+    backgroundColor: "#f5eded10",
+    boxShadow: "0 0 200px 50px #f5eded20",
+    pointerEvents: "none", // Ensure the cursor doesn't interfere with underlying elements
   };
+
+  const top = `${position.y - 100}px`;
+  const left = `${position.x - 100}px`;
+  console.log(top, left);
 
   return <div style={cursorStyle}></div>;
 };

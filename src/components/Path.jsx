@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import CursorFollower from "./CursorFollower";
+import SideMenu from "./SideMenu";
+import About from "./About";
+import Experience from "./Experience";
+import Skill from "./Skill";
 
 const Path = () => {
   const [theme, setTheme] = useState(null);
@@ -23,23 +27,20 @@ const Path = () => {
   const handleToggle = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-  
 
   return (
-    <div className="hero h-screen  flex justify-center items-center">
-      <div className="w-72 h-40 p-4 bg-zinc-900 dark:bg-white flex flex-col justify-center items-start gap-4 rounded-lg">
-        <p className="text-white dark:text-zinc-900 text-start">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
-          exercitationem, molestias nulla distinctio temporibus
-        </p>
-        <button
-          onClick={handleToggle}
-          className="px-4 py-1   rounded bg-white dark:bg-zinc-900 text-black dark:text-white"
-        >
-          Toggle
-        </button>
+    <div>
+      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 flex flex-col relative">
+        <div className="w-[30%] fixed top-0">
+          <SideMenu />
+        </div>
+        <div className="w-[55%] ml-auto py-20">
+          <About />
+          <Skill />
+          <Experience />
+        </div>
       </div>
-      <CursorFollower/>
+      <CursorFollower />
     </div>
   );
 };
