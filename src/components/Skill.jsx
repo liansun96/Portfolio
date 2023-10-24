@@ -2,7 +2,7 @@ import { Skills } from "../constant/data";
 
 const Skill = () => {
   return (
-    <div id="SKILLS" className="h-[70vh] mb-40">
+    <div id="SKILLS" className="mb-40">
       <div className="flex flex-wrap gap-6">
         {Skills.map((i) => {
           return (

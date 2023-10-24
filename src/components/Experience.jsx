@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       id="EXPERIENCE"
-      className="flex flex-col text-green_text dark:text-gray_text my-10"
+      className="flex flex-col text-green_text dark:text-gray_text mb-40"
     >
       <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
@@ -12,7 +12,9 @@ const Experience = () => {
         </div>
         <div className="w-[70%]">
           <div className="flex items-center gap-2 mb-2">
-            <p className="font-bold text-lg text-light">MMS IT Coding Workshop</p>{" "}
+            <p className="font-bold text-lg text-light">
+              MMS IT Coding Workshop
+            </p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
               <HiMiniArrowUpRight />
             </span>
@@ -90,7 +92,9 @@ const Experience = () => {
         </div>
         <div className="w-[70%]">
           <div className="flex items-center gap-2 mb-2">
-            <p className="font-bold text-lg text-light">University of Mandalay</p>{" "}
+            <p className="font-bold text-lg text-light">
+              University of Mandalay
+            </p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
               <HiMiniArrowUpRight />
             </span>
@@ -116,8 +120,13 @@ const Experience = () => {
           <p className="text-sm">初中三 毕业, Education</p>
         </div>
       </div>
-      <div className="flex items-center gap-2 p-5 group cursor-pointer">
-        <a className="text-xl font-bold group-hover:underline w-fit">
+      <div className="flex items-center gap-2 p-5 group cursor-pointer text-light mt-4">
+        <a
+          href="../public/resume/resume.pdf"
+          download="resume.pdf"
+          target="_blank"
+          className="text-xl font-bold group-hover:underline w-fit"
+        >
           View Full Résumé
         </a>
         <div className=" group-hover:translate-x-2 duration-300">
