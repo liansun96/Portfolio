@@ -4,6 +4,7 @@ import SideMenu from "./SideMenu";
 import About from "./About";
 import Experience from "./Experience";
 import Skill from "./Skill";
+import Projects from "./Projects";
 
 const Path = () => {
   const [theme, setTheme] = useState(null);
@@ -38,6 +39,7 @@ const Path = () => {
           <About />
           <Skill />
           <Experience />
+          <Projects/>
         </div>
       </div>
       <CursorFollower />

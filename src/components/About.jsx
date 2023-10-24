@@ -1,11 +1,7 @@
-import React, { useRef } from "react";
-
 const About = () => {
-  const aboutRef = useRef();
-
   return (
-    <div className="h-screen text-gray_text">
-      <p>
+    <div id="ABOUT" className="text-green_text dark:text-gray_text mb-40">
+      <p className="">
         <br />
         My journey into the world of web development began with a fascination
         for how technology can transform ideas into interactive and beautiful

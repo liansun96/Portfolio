@@ -13,6 +13,17 @@
   transition: all 0.5s linear 0s;
 }
 
-.active{
-  width: ;
-}
+.menu .sideMenu-active p{
+  color: antiquewhite; 
+  transition: all;
+  transition-duration: 300ms;  
+}  
+
+.menu .sideMenu-active div{
+  background-color: antiquewhite; 
+  transition: all;
+  width: 70px;
+  transition-duration: 300ms;  
+} 
+
+
