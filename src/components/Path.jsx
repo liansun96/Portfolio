@@ -5,6 +5,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Skill from "./Skill";
 import Projects from "./Projects";
+import BackInTime from "./BackInTime";
 
 const Path = () => {
   const [theme, setTheme] = useState(null);
@@ -30,7 +31,7 @@ const Path = () => {
   };
 
   return (
-    <div>
+    <div className="relative">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 flex flex-col relative">
         <div className="w-[30%] md:fixed md:top-0">
           <SideMenu />
@@ -39,7 +40,8 @@ const Path = () => {
           <About />
           <Skill />
           <Experience />
-          <Projects/>
+          <Projects />
+          <BackInTime />
         </div>
       </div>
       <CursorFollower />

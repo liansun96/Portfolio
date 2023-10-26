@@ -46,7 +46,7 @@ const Projects = () => {
               <BiLink className="text-lg" />
               <a
                 target="_blank"
-                href="https://netflix-clone-liansun.netlify.app"
+                href="https://netflix-clone-96.netlify.app"
                 className="mb-1 hover:underline"
               >
                 demo
@@ -54,22 +54,22 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">The Movie Database API (TMDB)</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">React</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Redux Toolkit</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">RTK Query</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Tailwind Css</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Framer Motion</p>
             </div>
           </div>
@@ -114,19 +114,19 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Authentication API</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">React</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Redux Toolkit</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">RTK Query</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Tailwind Css</p>
             </div>
           </div>
@@ -176,19 +176,19 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">TheMealDB API</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">React</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Redux Toolkit</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Axios</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Tailwind Css</p>
             </div>
           </div>
@@ -234,16 +234,16 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">JavaScript</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">React</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Swiper</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Tailwind Css</p>
             </div>
           </div>
@@ -291,16 +291,16 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">JavaScript</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">React</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Swiper</p>
             </div>
-            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full px-2 w-fit text-sm flex items-center gap-1 text-light">
+            <div className="bg-gray dark:bg-green dark:bg-opacity-50 rounded-full py-1 px-2 w-fit text-xs flex items-center gap-1 text-light">
               <p className="text-sx">Tailwind Css</p>
             </div>
           </div>

@@ -9,9 +9,8 @@ const About = () => {
         the industry's best practices but also to stay ahead of the
         ever-evolving web landscape. <br />
         <br />
-        When not coding, I practice my guitar skills, immersing myself in a good
-        book, or tinkering with personal coding projects. I believe that a
-        well-rounded life is essential for fostering creativity and innovation.{" "}
+        In my spare time, I engage in activities such as playing the guitar,
+        reading, and working on personal coding projects when I'm not coding.{" "}
         <br />
         <br />
         Let's work together to bring your ideas to life!Feel free to reach out

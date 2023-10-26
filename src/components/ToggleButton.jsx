@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import CursorFollower from "./CursorFollower";
+import {RiMoonClearFill , RiSunFill} from 'react-icons/ri'
 
-const Sample = () => {
+const ToggleButton = () => {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
@@ -25,17 +25,17 @@ const Sample = () => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center fixed left-0">
-      <div className="p-4 bg-gray dark:bg-light flex flex-col justify-center items-start gap-4 rounded-lg">
+    <div className="h-screen flex justify-center items-center left-5">
+      <div className="p-2 bg-gray dark:bg-green bg-opacity-50 flex flex-col justify-center items-start gap-4 rounded-lg">
         <button
           onClick={handleToggle}
-          className="px-4 py-1   rounded bg-green dark:bg-gray text-light dark:text-white"
+          className="p-2 rounded bg-green dark:bg-gray text-light dark:text-white"
         >
-          Toggle
+          {theme === "dark" ? <RiMoonClearFill/> : <RiSunFill/>}
         </button>
       </div>
     </div>
   );
 };
 
-export default Sample;
+export default ToggleButton;
