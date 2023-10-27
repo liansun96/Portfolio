@@ -1,6 +1,7 @@
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
 import v1 from "../assets/portfolio-v1.png";
+import { Link } from "react-scroll";
 
 const BackInTimeModal = ({ toggleBackInTimeModal }) => {
   return (
@@ -12,14 +13,15 @@ const BackInTimeModal = ({ toggleBackInTimeModal }) => {
         onClick={(e) => e.stopPropagation()}
         className="modal-bg w-[90%] md:w-[550px] h-[550px] rounded-full p-5 flex flex-col justify-center items-center gap-3 persp"
       >
-        <div className="skew space-y-5 mt-20">
+        <div className="skew space-y-5 mt-20 relative">
           <h6 className="text-2xl font-bold text-center text-gray-800 text-white">
             Looking for a different version ? <br />
             Go Back in time ...
           </h6>
-          <div className="flex justify-center items-center">
+          <a target="_blank" href="https://toetetaung.netlify.app" className="flex justify-center items-center cursor-pointer">
             <img src={v1} className="w-[50%]" alt="" />
-          </div>
+            <span className="w-[50%] h-[50%] bg-black bg-opacity-70 absolute text-light text-center opacity-0 hover:opacity-100 duration-500">V1</span>
+          </a>
         </div>       
       </div>
       <button
