@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+/* body.modal-open {
+  overflow: hidden;
+} */
+
+.modal-bg{
+  background-image: url('https://i.gifer.com/XDZT.gif');
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
+
+.persp{
+  position: relative;
+  perspective: 400px;
+}
+
+.skew{
+  transform: rotateX(25deg) translateZ(100px);
+  transform-origin: 50% 100%;
 }
 
 .hero::before {
@@ -19,17 +39,15 @@
   transition: all 0.5s linear 0s;
 }
 
-.menu .sideMenu-active p{
-  color: antiquewhite; 
+.menu .sideMenu-active p {
+  color: antiquewhite;
   transition: all;
-  transition-duration: 300ms;  
-}  
+  transition-duration: 300ms;
+}
 
-.menu .sideMenu-active div{
-  background-color: antiquewhite; 
+.menu .sideMenu-active div {
+  background-color: antiquewhite;
   transition: all;
   width: 70px;
-  transition-duration: 300ms;  
-} 
-
-
+  transition-duration: 300ms;
+}

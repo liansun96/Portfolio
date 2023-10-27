@@ -25,11 +25,11 @@ const ToggleButton = () => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center left-5">
-      <div className="p-2 bg-gray dark:bg-green bg-opacity-50 flex flex-col justify-center items-start gap-4 rounded-lg">
+    <div className="justify-center items-center">
+      <div className="p-2 bg-gray dark:bg-green bg-opacity-50 flex flex-col justify-center items-start gap-4 rounded-full">
         <button
           onClick={handleToggle}
-          className="p-2 rounded bg-green dark:bg-gray text-light dark:text-white"
+          className="p-2 rounded-full bg-green dark:bg-gray text-light dark:text-white"
         >
           {theme === "dark" ? <RiMoonClearFill/> : <RiSunFill/>}
         </button>

@@ -18,9 +18,14 @@ const SideMenu = () => {
   return (
     <div className="w-full h-screen flex flex-col items-start justify-between text-green_text dark:text-gray_text py-20">
       <div className="">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 relative">
           <h1 className="text-6xl font-bold">Lian Sun</h1>
           <span class="group/devo inline-flex lg:cursor-[url('../assets/react.svg'),_pointer] lg:font-medium lg:text-slate-200">
+            <img
+              src="https://i.gifer.com/XDZc.gif"
+              className="w-40 absolute -top-10 -right-10 opacity-0 duration-1000 group-hover/devo:opacity-100 "
+              alt=""
+            />
             <span
               class="group-hover/devo:text-red-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[50ms]"
               aria-hidden="true"
@@ -177,7 +182,10 @@ const SideMenu = () => {
           })}
         </div>
       </div>
-      <div className="flex items-center gap-0 mt-20 -translate-x-4">
+      <div className="w-full flex items-center gap-0 mt-20 -translate-x-4">
+        <div className="me-20">
+          <ToggleButton />
+        </div>
         <a
           target="_blank"
           href="https://github.com/liansun96"
@@ -207,7 +215,6 @@ const SideMenu = () => {
           <ImLinkedin className="text-2xl group-hover:text-3xl group-hover:rotate-[360deg] group-hover:text-light duration-500" />
         </a>
       </div>
-      <ToggleButton />
     </div>
   );
 };

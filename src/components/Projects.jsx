@@ -46,7 +46,7 @@ const Projects = () => {
               <BiLink className="text-lg" />
               <a
                 target="_blank"
-                href="https://netflix-clone-96.netlify.app"
+                href="https://netflix-clone-996.netlify.app"
                 className="mb-1 hover:underline"
               >
                 demo

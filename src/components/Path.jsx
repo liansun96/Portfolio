@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Skill from "./Skill";
 import Projects from "./Projects";
 import BackInTime from "./BackInTime";
+import BackInTimeModal from "./BackInTimeModal";
 
 const Path = () => {
   const [theme, setTheme] = useState(null);
@@ -30,10 +31,22 @@ const Path = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  //back in time modal
+  const [backInTimeModal, setBackInTimeModal] = useState(false);
+  const toggleBackInTimeModal = () => {
+    setBackInTimeModal(!backInTimeModal);
+  };
+
+  if (backInTimeModal) {
+    document.body.classList.add("overflow-y-hidden");    
+  } else {
+    document.body.classList.remove("overflow-y-hidden");    
+  }
+
   return (
     <div className="relative">
-      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 flex flex-col relative">
-        <div className="w-[30%] md:fixed md:top-0">
+      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 flex flex-col relative ">
+        <div className="w-[95%] md:w-[30%] md:fixed md:top-0">
           <SideMenu />
         </div>
         <div className="w-[95%]  md:w-[55%] md:ml-auto  py-16">
@@ -41,10 +54,11 @@ const Path = () => {
           <Skill />
           <Experience />
           <Projects />
-          <BackInTime />
+          <BackInTime toggleBackInTimeModal={toggleBackInTimeModal} />
         </div>
       </div>
       <CursorFollower />
+      {backInTimeModal && <BackInTimeModal toggleBackInTimeModal={toggleBackInTimeModal}/>}
     </div>
   );
 };
