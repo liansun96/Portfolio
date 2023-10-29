@@ -31,7 +31,7 @@ const ToggleButton = () => {
           onClick={handleToggle}
           className="p-2 rounded-full bg-green dark:bg-gray text-light dark:text-white"
         >
-          {theme === "dark" ? <RiMoonClearFill/> : <RiSunFill/>}
+          {theme === "dark" ? <RiMoonClearFill  /> : <RiSunFill  />}
         </button>
       </div>
     </div>

@@ -11,8 +11,8 @@ const SideMenu = () => {
   const list = [
     { icon: <HiOutlineMinus />, name: "ABOUT" },
     { icon: <HiOutlineMinus />, name: "SKILLS" },
-    { icon: <HiOutlineMinus />, name: "EXPERIENCE" },
     { icon: <HiOutlineMinus />, name: "PROJECTS" },
+    { icon: <HiOutlineMinus />, name: "EXPERIENCE" },
   ];
 
   return (

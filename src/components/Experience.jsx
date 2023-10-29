@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       id="EXPERIENCE"
-      className="flex flex-col text-green_text dark:text-gray_text mb-40"
+      className="flex flex-col text-green_text dark:text-gray_text"
     >
       <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">

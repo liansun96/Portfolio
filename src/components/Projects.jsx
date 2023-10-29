@@ -9,7 +9,7 @@ import nftDashboard from "../assets/nft-dashboard.png";
 
 const Projects = () => {
   return (
-    <div id="PROJECTS" className="text-green_text dark:text-gray_text">
+    <div id="PROJECTS" className="text-green_text dark:text-gray_text mb-40">
       <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">

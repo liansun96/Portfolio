@@ -52,8 +52,8 @@ const Path = () => {
         <div className="w-[95%]  md:w-[55%] md:ml-auto  py-16">
           <About />
           <Skill />
-          <Experience />
           <Projects />
+          <Experience />
           <BackInTime toggleBackInTimeModal={toggleBackInTimeModal} />
         </div>
       </div>

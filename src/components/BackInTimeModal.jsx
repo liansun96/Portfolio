@@ -14,15 +14,21 @@ const BackInTimeModal = ({ toggleBackInTimeModal }) => {
         className="modal-bg w-[90%] md:w-[550px] h-[550px] rounded-full p-5 flex flex-col justify-center items-center gap-3 persp"
       >
         <div className="skew space-y-5 mt-20 relative">
-          <h6 className="text-2xl font-bold text-center text-gray-800 text-white">
+          <h6 className="text-2xl font-bold text-center text-gray-800 text-emerald-900">
             Looking for a different version ? <br />
             Go Back in time ...
           </h6>
-          <a target="_blank" href="https://toetetaung.netlify.app" className="flex justify-center items-center cursor-pointer">
+          <a
+            target="_blank"
+            href="https://toetetaung.netlify.app"
+            className="flex justify-center items-center cursor-pointer"
+          >
             <img src={v1} className="w-[50%]" alt="" />
-            <span className="w-[50%] h-[50%] bg-black bg-opacity-70 absolute text-light text-center opacity-0 hover:opacity-100 duration-500">V1</span>
+            <span className="w-[50%] h-[60%] bg-black bg-opacity-70 absolute text-light text-center opacity-0 hover:opacity-100 duration-500">
+              <div className="flex items-center justify-center h-full">V1</div>
+            </span>
           </a>
-        </div>       
+        </div>
       </div>
       <button
         className="group border-2 border-light rounded-full p-2 hover:p-3 duration-1000 font-bold text-primary-200 absolute top-6 right-6"
