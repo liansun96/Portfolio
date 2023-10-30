@@ -15,8 +15,7 @@ const BackInTimeModal = ({ toggleBackInTimeModal }) => {
       >
         <div className="skew space-y-5 mb-20 md:mt-20 relative">
           <h6 className="text-lg md:text-2xl font-bold text-center text-light">
-            Looking for a different version ? <br />
-            Go Back in time ...
+            Go Back in time to V1
           </h6>
           <a
             target="_blank"
@@ -24,7 +23,7 @@ const BackInTimeModal = ({ toggleBackInTimeModal }) => {
             className="flex justify-center items-center cursor-pointer"
           >
             <img src={v1} className="w-[50%]" alt="" />
-            <span className="w-[50%] h-[60%] bg-black bg-opacity-70 absolute text-light text-center opacity-0 hover:opacity-100 duration-500">
+            <span className="w-[50%] h-[70%] bg-black bg-opacity-70 absolute text-light text-center opacity-0 hover:opacity-100 duration-500">
               <div className="flex items-center justify-center h-full">V1</div>
             </span>
           </a>

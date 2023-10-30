@@ -24,7 +24,7 @@ const SideMenu = () => {
             <img
               // src="https://i.gifer.com/XDZc.gif"
               src="https://i.gifer.com/xt.gif"
-              className="w-32  absolute top-0 -right-10 opacity-0 duration-700 group-hover/devo:opacity-100 "
+              className="w-24 md:w-32  absolute top-0 right-0 md:-right-10 opacity-0 duration-700 group-hover/devo:opacity-100 "
               alt=""
             />
             <span

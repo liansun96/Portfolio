@@ -133,7 +133,7 @@ const Experience = () => {
         <div className=" group-hover:translate-x-2 duration-300">
           <HiMiniArrowRight />
         </div>
-        <PDFViewer/>
+        
       </div>
     </div>
   );
