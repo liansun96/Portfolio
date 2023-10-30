@@ -16,42 +16,43 @@ const SideMenu = () => {
   ];
 
   return (
-    <div className="w-full h-screen flex flex-col items-start justify-between text-green_text dark:text-gray_text py-20">
+    <div className="w-full md:h-screen flex flex-col items-start justify-between text-green_text dark:text-gray_text md:py-20">
       <div className="">
         <div className="flex flex-col gap-3 relative">
           <h1 className="text-6xl font-bold">Lian Sun</h1>
           <span class="group/devo inline-flex lg:cursor-[url('../assets/react.svg'),_pointer] lg:font-medium lg:text-slate-200">
             <img
-              src="https://i.gifer.com/XDZc.gif"
-              className="w-40 absolute -top-10 -right-10 opacity-0 duration-1000 group-hover/devo:opacity-100 "
+              // src="https://i.gifer.com/XDZc.gif"
+              src="https://i.gifer.com/xt.gif"
+              className="w-32  absolute top-0 -right-10 opacity-0 duration-700 group-hover/devo:opacity-100 "
               alt=""
             />
             <span
-              class="group-hover/devo:text-red-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[50ms]"
+              class="group-hover/devo:text-[#E2582A] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[50ms]"
               aria-hidden="true"
             >
               F
             </span>
             <span
-              class="group-hover/devo:text-orange-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[75ms]"
+              class="group-hover/devo:text-[#117FC0] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[75ms]"
               aria-hidden="true"
             >
               r
             </span>
             <span
-              class="group-hover/devo:text-yellow-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[100ms]"
+              class="group-hover/devo:text-[#F0DC59] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[100ms]"
               aria-hidden="true"
             >
               o
             </span>
             <span
-              class="group-hover/devo:text-lime-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[125ms]"
+              class="group-hover/devo:text-[#F4F2ED] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[125ms]"
               aria-hidden="true"
             >
               n
             </span>
             <span
-              class="group-hover/devo:text-green-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[150ms]"
+              class="group-hover/devo:text-[#807979] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[150ms]"
               aria-hidden="true"
             >
               t
@@ -88,7 +89,7 @@ const SideMenu = () => {
               w
             </span>
             <span
-              class="group-hover/devo:text-violet-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[300ms]"
+              class="group-hover/devo:text-[#E14E1D] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[300ms]"
               aria-hidden="true"
             >
               e
@@ -107,19 +108,19 @@ const SideMenu = () => {
               D
             </span>
             <span
-              class="group-hover/devo:text-yellow-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[375ms]"
+              class="group-hover/devo:text-[#F0DC59] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[375ms]"
               aria-hidden="true"
             >
               e
             </span>
             <span
-              class="group-hover/devo:text-lime-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[400ms]"
+              class="group-hover/devo:text-[#7E54BF] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[400ms]"
               aria-hidden="true"
             >
               v
             </span>
             <span
-              class="group-hover/devo:text-green-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[425ms]"
+              class="group-hover/devo:text-[#CD6799] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[425ms]"
               aria-hidden="true"
             >
               e
@@ -137,7 +138,7 @@ const SideMenu = () => {
               o
             </span>
             <span
-              class="group-hover/devo:text-yellow-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[500ms]"
+              class="group-hover/devo:text-[#3DACFE] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[500ms]"
               aria-hidden="true"
             >
               p
@@ -149,15 +150,17 @@ const SideMenu = () => {
               e
             </span>
             <span
-              class="group-hover/devo:text-green-400 text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[550ms]"
+              class="group-hover/devo:text-[#39556c] text-2xl transition duration-75 group-hover/devo:-translate-y-px delay-[550ms]"
               aria-hidden="true"
             >
               r
             </span>
           </span>
           <p className="">
-            Hello, I'm Toe Tet Aung a.k.a Lian Sun, a passionate <br />
-            frontend web developer with a deep love for creating <br />
+            Hello, I'm Toe Tet Aung a.k.a Lian Sun, a passionate{" "}
+            <br className="hidden md:block" />
+            frontend web developer with a deep love for creating{" "}
+            <br className="hidden md:block" />
             engaging and user-friendly web applications.
           </p>
         </div>
@@ -171,7 +174,7 @@ const SideMenu = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="flex items-center justify-start gap-3 group cursor-pointer duration-300"
+                className="flex items-center justify-start gap-3 group cursor-pointer duration-300 w-fit"
               >
                 <div className="hover-link h-[2px] w-[30px] bar group-hover:w-[70px] duration-300 bg-stone-500 group-hover:bg-light"></div>
                 <p className="text-stone-500 group-hover:text-light text-sm font-bold duration-300">
@@ -182,7 +185,7 @@ const SideMenu = () => {
           })}
         </div>
       </div>
-      <div className="w-full flex items-center gap-0 mt-20 -translate-x-4">
+      <div className="w-full flex items-center gap-0 mt-20">
         <div className="me-20">
           <ToggleButton />
         </div>

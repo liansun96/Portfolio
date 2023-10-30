@@ -8,9 +8,11 @@
   box-sizing: border-box;
 }
 
-/* body.modal-open {
+
+body.modal-open {
   overflow: hidden;
-} */
+
+}
 
 .modal-bg{
   background-image: url('https://i.gifer.com/XDZT.gif');

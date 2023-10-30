@@ -46,10 +46,10 @@ const Path = () => {
   return (
     <div className="relative">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 flex flex-col relative ">
-        <div className="w-[95%] md:w-[30%] md:fixed md:top-0">
+        <div className="w-full md:w-[30%] md:fixed md:top-0">
           <SideMenu />
         </div>
-        <div className="w-[95%]  md:w-[55%] md:ml-auto  py-16">
+        <div className="w-full  md:w-[55%] md:ml-auto  py-16">
           <About />
           <Skill />
           <Projects />

@@ -1,4 +1,5 @@
 import { HiMiniArrowRight, HiMiniArrowUpRight } from "react-icons/hi2";
+import PDFViewer from "./PdfViewer";
 
 const Experience = () => {
   return (
@@ -132,6 +133,7 @@ const Experience = () => {
         <div className=" group-hover:translate-x-2 duration-300">
           <HiMiniArrowRight />
         </div>
+        <PDFViewer/>
       </div>
     </div>
   );

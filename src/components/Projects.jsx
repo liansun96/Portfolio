@@ -9,14 +9,14 @@ import nftDashboard from "../assets/nft-dashboard.png";
 
 const Projects = () => {
   return (
-    <div id="PROJECTS" className="text-green_text dark:text-gray_text mb-40">
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
-        <div className="w-[30%]">
-          <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
+    <div id="PROJECTS" className="text-green_text dark:text-gray_text mb-20 md:mb-40">
+      <div className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+        <div className="w-full md:w-[30%]">
+          <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
             <img src={netflix} alt="netflix" />
           </div>
         </div>
-        <div className="w-[70%] flex flex-col gap-4">
+        <div className="w-full md:w-[70%] flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <p className="font-bold text-lg text-light">Netflix Clone</p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
@@ -75,13 +75,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
-        <div className="w-[30%]">
-          <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+        <div className="w-full md:w-[30%]">
+          <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
             <img src={contact} alt="contact" />
           </div>
         </div>
-        <div className="w-[70%] flex flex-col gap-4">
+        <div className="w-full md:w-[70%] flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <p className="font-bold text-lg text-light">Google Contact Clone</p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
@@ -132,13 +132,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
-        <div className="w-[30%]">
-          <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+        <div className="w-full md:w-[30%]">
+          <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
             <img src={recipes} className="" alt="recipes" />
           </div>
         </div>
-        <div className="w-[70%] flex flex-col gap-4">
+        <div className="w-full md:w-[70%] flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <p className="font-bold text-lg text-light">Recipes App</p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
@@ -194,13 +194,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
-        <div className="w-[30%]">
-          <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+        <div className="w-full md:w-[30%]">
+          <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
             <img src={nft} className="" alt="nft" />
           </div>
         </div>
-        <div className="w-[70%] flex flex-col gap-4">
+        <div className="w-full md:w-[70%] flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <p className="font-bold text-lg text-light">NFT Marketplace</p>{" "}
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
@@ -249,13 +249,13 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
-        <div className="w-[30%]">
-          <div className="w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+        <div className="w-full md:w-[30%]">
+          <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
             <img src={nftDashboard} className="" alt="nftDashboard" />
           </div>
         </div>
-        <div className="w-[70%] flex flex-col gap-4">
+        <div className="w-full md:w-[70%] flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <p className="font-bold text-lg text-light">
               NFT Marketplace Dashboard

@@ -11,10 +11,10 @@ const BackInTimeModal = ({ toggleBackInTimeModal }) => {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="modal-bg w-[90%] md:w-[550px] h-[550px] rounded-full p-5 flex flex-col justify-center items-center gap-3 persp"
+        className="modal-bg w-[90%] md:w-[550px] h-[550px] rounded-full p-10 md:p-5 flex flex-col justify-center items-center gap-3 persp"
       >
-        <div className="skew space-y-5 mt-20 relative">
-          <h6 className="text-2xl font-bold text-center text-gray-800 text-emerald-900">
+        <div className="skew space-y-5 mb-20 md:mt-20 relative">
+          <h6 className="text-lg md:text-2xl font-bold text-center text-light">
             Looking for a different version ? <br />
             Go Back in time ...
           </h6>
