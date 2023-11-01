@@ -7,7 +7,7 @@ const Experience = () => {
       id="EXPERIENCE"
       className="flex flex-col text-green_text dark:text-gray_text"
     >
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2022 - 2023</p>
         </div>
@@ -25,7 +25,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2021 - 2022</p>
         </div>
@@ -41,7 +41,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2020 - 2021</p>
         </div>
@@ -55,7 +55,7 @@ const Experience = () => {
           <p className="text-sm">Front-End Web Development</p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2016 - 2019</p>
         </div>
@@ -71,7 +71,7 @@ const Experience = () => {
           <p className="text-sm">Samanea Group of Company Limited</p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2016 - 2019</p>
         </div>
@@ -87,7 +87,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2011 - 2015</p>
         </div>
@@ -105,7 +105,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-start p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
+      <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
           <p className="text-green_text dark:text-gray_text">2001 - 2011</p>
         </div>
@@ -121,7 +121,7 @@ const Experience = () => {
           <p className="text-sm">初中三 毕业, Education</p>
         </div>
       </div>
-      <div className="flex items-center gap-2 p-5 group cursor-pointer text-light mt-4">
+      <div className="flex items-center gap-2 px-0 py-5 md:p-5 group cursor-pointer text-light mt-4">
         <a
           href="../public/resume/resume.pdf"
           download="resume.pdf"

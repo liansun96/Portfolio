@@ -53,3 +53,25 @@ body.modal-open {
   width: 70px;
   transition-duration: 300ms;
 }
+
+.backdrop-blur{
+  --tw-backdrop-blur: blur(8px);
+}
+
+@media screen and (max-width:600px) {
+  .menu .sideMenu-active p {
+    color: #fafafa;
+    display: block;
+    position: absolute;
+    left: 0;
+    text-align: start;
+    transition: all;
+    transition-duration: 300ms;
+    padding: 5px 50px;
+    border-radius: 20px;
+  }
+
+  /* .menu .sideMenu-active{
+    transform: translateY(0px);
+  } */
+}

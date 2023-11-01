@@ -29,7 +29,7 @@ const CursorFollower = () => {
 
   const top = `${position.y - 100}px`;
   const left = `${position.x - 100}px`;
-  console.log(top, left);
+  // console.log(top, left);
 
   return <div style={cursorStyle}></div>;
 };

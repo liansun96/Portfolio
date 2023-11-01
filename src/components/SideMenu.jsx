@@ -164,25 +164,48 @@ const SideMenu = () => {
             engaging and user-friendly web applications.
           </p>
         </div>
-        <div className="mt-16 flex flex-col gap-3 menu">
-          {list.map((i) => {
-            return (
-              <Link
-                to={i.name}
-                activeClass="sideMenu-active "
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-                className="flex items-center justify-start gap-3 group cursor-pointer duration-300 w-fit"
-              >
-                <div className="hover-link h-[2px] w-[30px] bar group-hover:w-[70px] duration-300 bg-stone-500 group-hover:bg-light"></div>
-                <p className="text-stone-500 group-hover:text-light text-sm font-bold duration-300">
-                  {i.name}
-                </p>
-              </Link>
-            );
-          })}
+        <div className="block md:hidden relative">
+          <div className="rounded-full flex gap-4 menu fixed top-5">
+            {list.map((i) => {
+              return (
+                <Link
+                  to={i.name}
+                  activeClass="sideMenu-active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className=""
+                >
+                  <p className="text-stone-500 group-hover:text-light text-sm font-bold duration-300 hidden backdrop-blur bg-gray dark:bg-green bg-opacity-50 dark:bg-opacity-50">
+                    {i.name}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+        <div className="hidden md:block">
+          <div className="mt-16 flex flex-col gap-3 menu">
+            {list.map((i) => {
+              return (
+                <Link
+                  to={i.name}
+                  activeClass="sideMenu-active "
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="flex items-center justify-start gap-3 group cursor-pointer duration-300 w-fit"
+                >
+                  <div className="hover-link h-[2px] w-[30px] bar group-hover:w-[70px] duration-300 bg-stone-500 group-hover:bg-light"></div>
+                  <p className="text-stone-500 group-hover:text-light text-sm font-bold duration-300">
+                    {i.name}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div className="w-full flex items-center gap-0 mt-20">
