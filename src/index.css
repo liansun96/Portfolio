@@ -36,8 +36,7 @@ body.modal-open {
   width: 100vw;
   color: rgb(181, 181, 181);
   position: fixed;
-  z-index: -1;
-  /* background-image: radial-gradient(circle at top right, rgb(79, 79, 79),rgb(26, 51, 72)); */
+  z-index: -1;  
   transition: all 0.5s linear 0s;
 }
 
@@ -71,7 +70,4 @@ body.modal-open {
     border-radius: 20px;
   }
 
-  /* .menu .sideMenu-active{
-    transform: translateY(0px);
-  } */
 }
