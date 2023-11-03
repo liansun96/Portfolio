@@ -120,7 +120,7 @@ export const projects = [
     image: contact,
     title: "Google Contact Clone",
     github: "https://github.com/liansun96/Google-Contacts-Clone-Auth",
-    demo: "",
+    demo: "https://google-contacts-clone-auth.netlify.app",
     description:
       "Google Contact Clone is a versatile contact management application that empowers users to register their accounts, create, update, and delete contacts, and mark certain contacts as favorites. This service provides users with a robust and user-friendly tool for managing their contacts efficiently.",
     badges: [
