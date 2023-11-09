@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div id="ABOUT" className="text-green_text dark:text-gray_text mb-20 md:mb-40">
+    <div id="ABOUT" className="text-green_text dark:text-gray_text mb-20 md:mb-40 text-justify">
       <p className="">
         <br />
         My journey into the world of web development began with a fascination

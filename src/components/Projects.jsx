@@ -27,7 +27,7 @@ const Projects = () => {
                   <HiMiniArrowUpRight />
                 </span>
               </div>
-              <p className="leading-5 text-sm">{i.description}</p>
+              <p className="leading-5 text-sm text-justify">{i.description}</p>
               <div className="flex gap-4">
                 <div className="w-fit text-sm flex items-center gap-1 text-light">
                   <BiLink className="text-lg" />
