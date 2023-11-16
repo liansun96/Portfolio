@@ -2,6 +2,9 @@ import React from "react";
 import { BiLink } from "react-icons/bi";
 import { projects } from "../constant/data";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -11,13 +14,22 @@ const Projects = () => {
     >
       {projects.map((i) => {
         return (
-          <div
+          <Link      
+            target="_blank"
+            to={i.demo}      
             key={i.id}
             className="flex flex-col md:flex-row items-start my-10 p-3 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300"
           >
             <div className="w-full md:w-[30%]">
               <div className="w-[70%] md:w-[90%] rounded bg-gray dark:bg-green overflow-hidden">
-                <img src={i.image} alt="netflix" />
+                <LazyLoadImage
+                  effect="opacity"
+                  wrapperProps={{
+                    style: { transitionDelay: ".5s" },
+                  }}
+                  src={i.image}
+                  alt="netflix"
+                />
               </div>
             </div>
             <div className="w-full md:w-[70%] flex flex-col gap-4">
@@ -57,12 +69,12 @@ const Projects = () => {
                       <p className="text-sx">{badge.text}</p>
                     </div>
                   );
-                })}                
+                })}
               </div>
             </div>
-          </div>
+          </Link>
         );
-      })}     
+      })}
     </div>
   );
 };
