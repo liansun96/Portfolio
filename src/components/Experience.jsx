@@ -56,7 +56,7 @@ const Experience = () => {
       </div>
       <div className="flex items-start px-0 py-5 md:p-5 cursor-pointer rounded-lg group hover:bg-gray dark:hover:bg-green hover:bg-opacity-20 dark:hover:bg-opacity-20 duration-300">
         <div className="w-[30%]">
-          <p className="text-green_text dark:text-gray_text">2016 - 2019</p>
+          <p className="text-green_text dark:text-gray_text">2019 - 2020</p>
         </div>
         <div className="w-[70%]">
           <div className="flex items-center gap-2 mb-2">
